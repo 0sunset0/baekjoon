@@ -22,8 +22,6 @@ def dfs(depth, count):
                 dfs(depth, count+1)
                 result.pop(-1)
             
-       
-
 
 depth = 1
 while len(decrease_num) < n:
