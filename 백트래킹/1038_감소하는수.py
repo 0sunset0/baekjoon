@@ -23,7 +23,7 @@ def dfs(depth, count):
             
 depth = 1
 while len(decrease_num) <= n:
-    if depth > 10: # 감소하는 수 중에 가장 큰 수는 "987654321"이므로 depth가 10보다 클 수 없다. 
+    if depth > 10: # 감소하는 수 중에 가장 큰 수는 "9876543210"이므로 depth가 10보다 클 수 없다. 
         print(-1)
         exit()
     result = []
